@@ -1,8 +1,8 @@
 // File: /Users/owner/GitHub/School_Project/Absa-Capital/app/(auth)/home/page.tsx
-import * as entry from '../../../../../app/(auth)/home/page.js'
+import * as entry from '../../../../../app/(auth)/home/page.jsx'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../../app/(auth)/home/page.js')
+type TEntry = typeof import('../../../../../app/(auth)/home/page.jsx')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{
